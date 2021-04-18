@@ -2,7 +2,7 @@
 <h4>Jenkins udemy course repo <h4/>
 
 ssh-keygen -f remote-ki -m PEM - to create public and private key <br>
-'docker cp remote-ki jenkins:/tmp/remote-ki' - copy private key to the remote-host docker image <br>
+׳docker cp remote-ki jenkins:/tmp/remote-ki׳ - copy private key to the remote-host docker image <br>
 docker exec -u root jenkins bash -c "chown 1000:1000 /tmp/remote-ki" - chmod the permissions on that file <br>
 docker-compose build <br>
 docker-conpose up <br>
