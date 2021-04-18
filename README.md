@@ -9,7 +9,7 @@ docker-conpose up <br>
 <br>
 After finished the instructions above you should be able communicate from jenkins to remote host using ssh without password
 <br>
->ssh -i /tmp/remote-ki remote_user@remote_host
+>. ssh -i /tmp/remote-ki remote_user@remote_host
 <br>
 If it works configure a new host in jenkins UI ( store creds inside jenkins credentials, the creds will be username and ssh key)
 
